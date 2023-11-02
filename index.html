@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      body {
+         display: flex;
+         flex-direction: column;
+         background-color: rgb(12, 178, 123);
+      }
+      header {
+         background-color: rgb(30, 182, 169);
+         border: 1px solid;
+         height: 9vh;
+         display: flex;
+         justify-content: left;
+         border-radius: 5px;
+      }
+
+      .ToDoContainer {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         padding: 5px;
+      }
+
+      .ToDo {
+         background-color: rgb(108, 107, 107);
+         border: 2px solid;
+         margin-top: 15px;
+         border-radius: 5px;
+         height: 82vh;
+         width: 430px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+
+      .TextContainer {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+         padding: 55px;
+      }
+
+      .Text {
+         background-color: rgb(186, 184, 185);
+         border: 2px solid;
+         margin-top: 15px;
+         border-radius: 5px;
+         height: 20vh;
+         width: 370px;
+         text-align: center;
+         display: flex;
+         flex-direction: column; /* Change to column for vertical layout */
+         align-items: center;
+         justify-content: center;
+      }
+
+      .Icons {
+         display: flex;
+         justify-content: flex-start; /* Align icons and text from left to right */
+         align-items: center;
+      }
+
+      .Icon {
+         display: flex;
+         margin-top: 70px;
+         align-items: center;
+         margin-right: 25px; /* Add spacing between icons */
+      }
+
+      .Icon p {
+   margin-left: 5px; /* Adjust the value to control the spacing */
+}
+
+   </style>
+</head>
+<body>
+   <header>
+      <h2>My Boards</h2>
+   </header>
+   <div class="ToDoContainer">
+      <div class="ToDo">
+        <p>To Do</p>
+        <div class="TextContainer">
+            <div class="Text">
+                <p>Text 1</p>
+                <div class="Icons">
+                    <div class="Icon"><img src="justify_26.png"></div>
+                    <div class="Icon"><img src="checkbox_26.png"> <p> 4/8</p></div>
+                    <div class="Icon"><img src="attach_26.png"> <p> 2</p></div>
+                    <div class="Icon"><img src="comments_26.png"> <p> 3</p></div>
+                    <div class="Icon"><img src="avatar_1.png"></div>
+                </div>
+            </div>
+            <div class="Text"><p>Text 2</p>
+                <div class="Icons">
+                    <div class="Icon"><img src="justify_26.png"></div>
+                    <div class="Icon"><img src="checkbox_26.png"> <p> 4/8</p></div>
+                    <div class="Icon"><img src="attach_26.png"> <p> 2</p></div>
+                 
+                    <div class="Icon"><img src="avatar_4.png"></div>
+                </div></div>
+            <div class="Text"><p>Text 3</p>
+                <div class="Icons">
+                    <div class="Icon"><img src="justify_26.png"></div>
+                    <div class="Icon"><img src="checkbox_26.png"> <p> 4/8</p></div>
+                    <div class="Icon"><img src="attach_26.png"> <p> 2</p></div>
+                    <div class="Icon"><img src="comments_26.png"> <p> 3</p></div>
+                    <div class="Icon"><img src="avatar_3.png"></div>
+                </div></div>
+        </div>
+      </div>
+      <div class="ToDo">
+        <p>In Progress</p>
+        <div class="TextContainer">
+            <div class="Text"><p>Text 4</p>
+                <div class="Icons">
+                    <div class="Icon"><img src="justify_26.png"></div>
+                    <div class="Icon"><img src="checkbox_26.png"> <p> 4/8</p></div>
+                    <div class="Icon"><img src="attach_26.png"> <p> 2</p></div>
+                
+                    <div class="Icon"><img src="avatar_1.png"></div>
+                </div></div>
+            <div class="Text"><p>Text 5</p>
+                <div class="Icons">
+                    <div class="Icon"><img src="justify_26.png"></div>
+                    <div class="Icon"><img src="checkbox_26.png"> <p> 4/8</p></div>
+                    <div class="Icon"><img src="attach_26.png"> <p> 2</p></div>
+                    <div class="Icon"><img src="comments_26.png"> <p> 3</p></div>
+                    <div class="Icon"><img src="avatar_2.png"></div>
+                </div></div>
+        </div>
+      </div>
+      <div class="ToDo">
+        <p>Test</p>
+        <div class="TextContainer">
+            <div class="Text"><p>Text 6</p>
+                <div class="Icons">
+                    <div class="Icon"><img src="justify_26.png"></div>
+                    <div class="Icon"><img src="checkbox_26.png"> <p> 4/8</p></div>
+                    <div class="Icon"><img src="attach_26.png"> <p> 2</p></div>
+                    
+                    <div class="Icon"><img src="avatar_3.png"></div>
+                </div></div>
+            <div class="Text"><p>Text 7</p>
+                <div class="Icons">
+                    <div class="Icon"><img src="justify_26.png"></div>
+                    <div class="Icon"><img src="checkbox_26.png"> <p> 4/8</p></div>
+                    <div class="Icon"><img src="attach_26.png"> <p> 2</p></div>
+                    <div class="Icon"><img src="comments_26.png"> <p> 3</p></div>
+                    <div class="Icon"><img src="avatar_4.png"></div>
+                </div></div>
+            <div class="Text"><p>Text 8</p>
+                <div class="Icons">
+                    <div class="Icon"><img src="justify_26.png"></div>
+                    <div class="Icon"><img src="checkbox_26.png"> <p> 4/8</p></div>
+                    <div class="Icon"><img src="attach_26.png"> <p> 2</p></div>
+                   
+                    <div class="Icon"><img src="avatar_1.png"></div>
+                </div></div>
+        </div>
+      </div>
+   </div>
+</body>
+</html>
